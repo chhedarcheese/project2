@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+img {
+	max-width: 100%;
+}
+
 h1 {
 	font-size: 1.850em;
 	font-weight: 100;
@@ -28,8 +32,8 @@ h3 {
 }
 
 .btn {
-	padding: 15px 30px;
-	margin: 40px 0;
+	padding: 1.5% 3%;
+	margin: 4% 0;
 	color: #faf3bc;
 	background: #000000 url('img/texture.png') no-repeat right top;
 	border-radius: 25px;
@@ -46,8 +50,8 @@ btn:hover {
 
 
 .btn-small {
-	padding: 10px 25px;
-	margin: 50px 0;
+	padding: 1% 2.5%;
+	margin: 5% 0;
 	color: #faf3bc;
 	font-size: .75em;
 	background: #b22316 url('img/sand2.jpg') no-repeat right bottom;
@@ -63,8 +67,8 @@ btn:hover {
 }
 
 .submit-btn {
-	padding: 10px 25px;
-	margin: 20px 0 50px 0;
+	padding: 1% 2.5%;
+	margin: 2% 0 5% 0;
 	color: #faf3bc;
 	font-family: 'Nunito', sans-serif;
 	border: 0;
@@ -79,19 +83,19 @@ btn:hover {
 
 ul.nav {
 	margin: 0 auto;
-	padding: 170px 0 0 0;
+	padding: 17% 0 0 0;
 	list-style: none;
 	float: right;
 }
 
 ul.nav li {
 	float: left;
-	margin-right: 70px;
+	margin-right: 7%;
 }
 
 ul.nav li.last {
 	margin: 0;
-	padding: 10px 25px;
+	padding: 1% 2.5%;
 	color: #faf3bc;
 	font-family: 'Nunito', sans-serif;
 	border: 0;
@@ -115,12 +119,12 @@ ul.nav li a {
 }
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 5% 0 7.5% 0;
 }
 
 #new-cupcakes img {
 	border: 8px solid #faf3bc;
-	margin: 0 0 20px 0;
+	margin: 0 0 2% 0;
 }
 
 #popular-cupcakes img {
@@ -138,7 +142,7 @@ ul.nav li a {
 
 #copyright {
 	border-top: 8px solid #2a0400;
-	padding: 10px 0;
-	margin: 15px 0;
+	padding: 1% 0;
+	margin: 1.5% 0;
 	text-align: center;
 }
